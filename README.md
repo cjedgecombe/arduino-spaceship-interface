@@ -78,3 +78,8 @@ The loop continues with some conditionals, that will interpret the state of the 
 
 Then the `delay()` function is used, which has the program wait for an amount of time, in this case 250ms, before using `digitalWrite()` again to swap the active red LED's. The program then waits an additional 250ms before repeating.
 
+The gif below shows how this looks in practice!
+
+![spaceship interface finished project](./images/finished-project-demo.gif)
+
+There are many different ways to to program `loop()` to achieve a variety of fun effects. Maybe the red LED's blink much faster, or maybe the green blinks with them as well. Perhaps all three blink in unison? Play around and have fun.
